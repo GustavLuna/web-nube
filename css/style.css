@@ -1,0 +1,119 @@
+/*Reset*/
+/* tipos googloe 
+texto 300 400 500 600
+font-family: 'Comfortaa', cursive;
+titulo 300 400 cursiva normal
+font-family: 'Shantell Sans', cursive;
+Paleta de colores
+lila #6858a1 R:104 G:88 B 161
+violeta #45358b R:69 G:53 B:139
+violeta oscuro #2f2a83 R:47 G:53 B:131
+rosa #e491bd R:228 G:145 b:189
+rosa(lila) #eaa3c8 R:234 G:163 B:200
+*/
+/*------------------index----------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/*-----------------header----------------*/
+.body-index {
+    background-image: url("../asset/imagenes/fondonubesrosas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #e491bd;
+    line-height: 45px;
+    overflow: auto;
+}
+
+li {
+    width: 150px;
+    /*display: inline-block; */
+    text-align: center;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    width: 150px;
+    display: block;
+    color: #2f2a83;
+}
+.header_index {
+    background-color: #6958ac;
+
+}
+
+.linkNav {
+    color: #6958ac;
+}
+
+.linkNavActivo {
+    color: #4a19ab;
+}
+
+#textFormat {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+h1 {
+    color: #6958ac;
+    font-family: 'Shantell Sans', cursive;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#textFormat h2 {
+
+     padding: 20px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.textIndexNormal {
+     padding: 20px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    font-size: 20px;
+    color: #6958ac;
+    letter-spacing: 1px;
+    line-height: 140%;
+}
+
+img {
+    width: 468px;
+    height: 545px;
+    position: center;
+}
+
+.imgIndex4 .imgindex3 .imgIndex2 {
+    width: 468px;
+    height: 545px;
+}
+
+.logonav {
+    width: 10px;
+    height: 10px;
+}
+/*footer*/
+footer {
+    background-color: rgba(rgb(223, 108, 233) 0.5);
+}
